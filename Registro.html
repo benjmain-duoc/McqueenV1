@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registrase</title>
+    <link rel="stylesheet" href="MyStyle.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body  class="bodystyle1" >
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" style="padding-left:20px;">
+			<img src="img/Logo.png" alt="Logo" width="120" height="96" class="d-inline-block align-text-top">
+
+		</a>
+            <a class="navbar-brand in " href="Nosotros.html"><h3 id="nvt"> LightningMcQueen </h3></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"> </span>
+		</button>		
+<!--intentar sacar-->
+		<div class="container-fluid" id="Center">
+			<form style="width: 450px;"  class="d-flex" role="search">
+				<input class="form-control me-2" type="search" placeholder="Que tipo de servicio buscas?" aria-label="Search">
+				<button class="btn btn-outline-danger" type="submit" >Buscar</button>
+			</form>
+		</div>
+	<div class="collapse navbar-collapse" id="navbarNav" style="padding-right:27px;">
+		<ul class="navbar-nav">
+			<li class="nav-item ">
+				<a class="in nav-link active" href="Inicio.html">Inicio </a>
+			</li>
+				<li class="nav-item ">
+				<a class="in nav-link disabled" href="Registro.html">Registrarse</a>
+			</li>
+				<li class="nav-item ">
+				<a class="in nav-link active" href="Ingresar.html">Ingresar</a>
+			</li>
+			<li class="nav-item ">
+				<a class="in nav-link active" href="Nosotros.html">Nosotros</a>
+			</li>
+			</ul>
+	</div>
+
+
+	</nav>
+
+    <form class="row g-3" style="padding-left:20%; padding-right:20%; padding-top:150px; color:azure; margin:2%;"  >
+        <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombres</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombres">
+            </div>
+            <div class="col-md-6">
+                <label for="inputLastName" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="lastname" placeholder="Apellidos">
+            </div>
+            <div class="col-6">
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="passwordreg" placeholder="Contraseña">
+            </div>
+            <div class="col-6">        
+                <label for="cpassword" class="form-label">Confirmar contraseña</label>
+                <input type="password" class="form-control" id="cpassword" placeholder="Confirmar contraseña">
+            </div>
+            <div class="col-6">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="emailreg" placeholder="Email">
+            </div>
+            <div class="col-6">
+                <label for="inputrut" class="form-label">Rut</label>
+                <input type="text" class="form-control" id="rutreg" placeholder="rut">
+            </div>
+            <div class="col-6">
+                <label for="inputAddress" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="address" placeholder="Av.Calle #1111">
+            <div>
+            <div class="col-md-6"style="padding-top:20px;">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="city" placeholder="Ciudad">
+            </div>
+
+
+        <div class="col-12"style="padding-top:15px;">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="checkreg">
+            <label class="form-check-label" for="gridCheck">
+            He leido y acepto los terminos y condiciones.
+            </label>
+
+        </div>
+        </div>
+        <div class="col-12"style="padding-top:15px;">
+        <button type="submit" class="btn btn-primary" onclick="return sendRegister()" value="enviar(js)" id="submitregister">Registrarse</button>
+        </div>
+        <div 
+            id="error" style="color:red">
+        </div>
+    </form>
+    <script src="app.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>

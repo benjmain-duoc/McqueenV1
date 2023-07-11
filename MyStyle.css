@@ -1,0 +1,258 @@
+
+
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px; 
+}
+
+
+/*---------------------------------- CREACIONES DEL EQUIPO ----------------------------------*/
+
+
+/**David 09/04/23 **/
+.card{
+	box-shadow: 6px 6px 6px black;
+	transition: transform 0.4s ease
+}
+.card a {
+	display: block;
+	color:azure;
+	text-transform: none;
+	text-decoration: none;
+}.card img{
+	height:215px; 
+	margin-top:15px;
+}.card:hover {
+	box-shadow: 6px 6px 6px black;
+	transform: translateY(-10px);
+}
+
+#nvt{
+	/* Nav Tittle */
+	color:rgb(255, 33, 33); 
+	padding-left:5px;
+	
+}
+#cbp{
+	/* card button position*/
+	position: absolute;
+	bottom:30px;
+	height: auto;
+	width: fit-content;
+}
+#sis{
+	/*slide image size*/
+	width:"100px"; height:"1000px";
+}
+#Center{
+	/*center anything*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#dtpN{
+	/*desing text Nosotros*/
+	color: azure;
+}
+
+.dtse{
+	color:rgb(255, 230, 91);
+	text-decoration: underline;
+	background-color:rgb(31, 32, 44);
+}
+.cas{
+	height: 40px;
+	width: 30px;
+
+}
+.bodystyle1{
+	background-image: url("img/bk2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color:azure;
+}
+.cts{
+	/* card tittle style*/
+	text-align: center;
+	color:rgb(255, 230, 91)
+}
+.sin{
+	/*size image Nosotros*/
+	height: 200px;
+	width:  300px;
+}
+.in{
+	/*da color a un texto cuando se pone el click ensima*/
+	border: none;
+	cursor: pointer;
+	transition: text-shadow 0.3s ease;
+}.in:hover{ text-shadow: 0px 0px 18px red;}
+.inb{
+	/*lo mismo que el de arriba pero a una caja*/
+	border: none;
+	cursor: pointer;
+	transition: box-shadow 0.4s ease;
+}.inb:hover{ box-shadow: 0px 0px 15px red;}
+/*
+.ccs {
+
+	border: none;
+	cursor: pointer;
+	transition: box-shadow 0.3s ease;
+}.ccs:hover{box-shadow: 0px 0px 15px  #2b95ff;} 
+*/
+.csc{
+	/*card shadow color*/
+	border: none;
+	cursor: pointer;
+	transition: box-shadow 0.3s ease;
+}.csc:hover{box-shadow: 4px 4px 10px black;}  
+.cts{
+	color: rgb(255, 230, 91);
+}
+.scb{
+	box-shadow: 0px 0px 8px  #2b95ff;
+}
+.scr{
+	box-shadow: 0px 0px 8px  #ff2b2b;
+}
+
+.bbk{
+	background-color:rgb(31, 32, 44);
+	border:1px red solid;
+	box-shadow: 6px 6px 6px black;
+}
+.bbk h1,h2,h3 {
+	color:rgb(255, 33, 33); 
+	padding-left:5px;
+}
+.bbk p{
+	color:azure;
+}
+
+/**David 09/04/23 **/
+
+
+/**Nicolas 07/04/23 **/
+.bodystyle{
+	margin: 3.5rem 0 0 0;
+	font-family: "Poppins", sans-serif;
+	font-size: 0.938rem;
+	background: linear-gradient(90deg, #183da4 0%, #07133d 50%);
+	color: #fff;
+}
+
+.bodystyle12{
+	background: linear-gradient(90deg, #183da4 0%, #08174a 50%);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bodystyle2{
+	background: linear-gradient(90deg, #183da4 0%, #08174a 50%);
+	color: #fff;
+}
+.bodystyle3{
+	background: linear-gradient(90deg, #183da4 0%, #08174a 50%);
+	color: #fff;
+}
+.bodystyle4{
+	background: linear-gradient(90deg, #183da4 0%, #08174a 50%);
+	color: #fff;
+}
+/**Nicolas 07/04/23 **/
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Yaldevi', sans-serif;
+}
+
+h1 {
+	color: green;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 22px;
+}
+
+h6 {
+	color: green;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 60px;
+	margin-bottom: 20px;
+}
+
+.myProducts-gallery img{
+	height: 92px;
+	margin: 10px 0;
+	cursor: pointer;
+	display: block;
+	opacity: .5;
+}
+
+.myProducts-gallery img:hover {
+	opacity: 1;
+}
+
+.myProducts-gallery {
+	float: left;
+}
+
+.myProducts {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	position: absolute;
+}
+
+.image-container img {
+	height: 400px;
+	transition: transform 1s;
+}
+
+.image-container img:hover{
+	transform: scale(1.5);
+	cursor: zoom-in;
+}
+
+.image-container {
+	float: right;
+	padding: 10px;
+}
+
+#tituloNo {
+	color: red;
+	
+	
+}
+#tituloAut {
+	color: #CD0F0F;
+}
+
+.img-1 {
+	height: 250px;
+	width: 450px;
+}
+.img-2 {
+	height: 260px;
+	width: 450px;
+	margin-left: 200px;
+	margin-top: -50px;
+	
+}
+
+#tituloAu {
+	color: #CD0F0F;
+}
+
+#tituloAuto2 {
+	color: #CD0F0F;
+}
